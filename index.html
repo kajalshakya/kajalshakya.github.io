@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<title>page</title>
+		<!-- Bootstrap core CSS -->
+	<link href="css/resume.min.css" rel="stylesheet">
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> <!--main css-->
+	<link href="resource/fontawesome-free/css/all.min.css" rel="stylesheet">
+	<link href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" rel="stylesheet" >
+
+</head>
+<body>
+	
+	<img style=" width:100px;height:100px;" src="resource/logo.png">
+	<span><div style="background-color: orange; width:160px; position: relative;     top: -100px;
+    left: 1160px;" >Turn on notification <i class="fas fa-bell"></i>
+</div></span>
+
+	<!-- Navigation -->
+	<nav class="w3-bar w3-black">
+		<a style="font-size: 50px;color:#212b757a;" href="#home" class="w3-button w3-bar-item">Home</a>
+		<a style="font-size: 50px;color:#212b757a;" href="#band" class="w3-button w3-bar-item">Band</a>
+		<a style="font-size: 50px;color:#212b757a;" href="#tour" class="w3-button w3-bar-item">Tour</a>
+		<a style="font-size: 50px;color:#212b757a;" href="#contact" class="w3-button w3-bar-item">Contact</a>
+	</nav>
+
+	<!-- Slide Show -->
+	<section>
+		<img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCDBQk6D2alzjxfYYgnTLZe4gwcXM_5aHQDQ&usqp=CAU" style="width: 400px;">
+		<img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpEZuJCV_VTnFP6SdDW0T28yopvcfwKiRXxw&usqp=CAU"
+		style="width:400px">
+		<img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv64i7dVHe0-p1fRft8RZ4THnFGKa4ZgYaCA&usqp=CAU"
+		style="width:400px;">
+	</section>
+
+	<!-- Band Description -->
+	<section class="w3-container w3-center w3-content" style="max-width:600px">
+		<h2 class="w3-wide">THE BAND</h2>
+		<p class="w3-opacity"><i>We love music</i></p>
+	</section>
+
+	<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+	var i;
+	var x = document.getElementsByClassName("mySlides");
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	}
+	myIndex++;
+	if (myIndex > x.length) {myIndex = 1}
+		x[myIndex-1].style.display = "block";
+	setTimeout(carousel, 3000);
+}
+</script>
+<audio controls>
+	<source src="resource/music.webm" type="audio/ogg">
+		<source src="resource/music.mp3" type="audio/mpeg">
+			<source src="resource/music.ogg" type="audio/mpeg">
+			</audio>
+			<head><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></head>
+
+			<i class="material-icons">cloud</i>
+			<i class="material-icons" style="font-size:48px;">cloud</i>
+			<i class="material-icons" style="font-size:60px;color:red;">cloud</i>
+
+
+
+
+		</body>
+		</html>

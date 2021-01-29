@@ -1,0 +1,20 @@
+
+
+.outerBody{
+	width: 220px;
+}
+body{
+	background-image: url('resource/img1.jpg');
+}
+	
+h1,h2,h3,h4{
+	padding: 10px;
+	height: 50px;
+	color: white;
+	background-color: black;
+}
+#mySection{
+	position: absolute;
+	top: 240px;
+	left: 400px;
+}
