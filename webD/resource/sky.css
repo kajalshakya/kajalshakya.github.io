@@ -1,0 +1,16 @@
+body {
+	background-color: #4bcec5;
+}
+h2 {
+	text-transform: capitalize;
+	font-family: 'Londrina Solid', cursive;
+}
+a {
+	font-size: 50px;
+}
+
+.secondh1 {
+	text-align: center;
+	font-size: 70px;
+	font-family: 'Londrina Solid', cursive;
+}
