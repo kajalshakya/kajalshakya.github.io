@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Pass the message</title>
+	<meta name="viewport"content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="message.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<script>
+	function getmessage()
+	{
+		var message =document.getElementById("entry").value;
+		document.getElementById("message").innerHTML =message;
+		document.getElementById("entry").value="";
+	}
+
+</script>
+<body style="background-color: black;">
+	<div class="container">
+		<form>
+			<h3>Enter a message you would like to pass</h3>
+		<input id="entry" style="font-size:30px">
+		<br><br>
+		<button class="btn btn-primary" onclick="getmessage();return false;">Submit</button>
+		<h3>The message:</h3>
+		<h3 id="message" style="font-style: italic;"></h3>
+	</form>
+
+
+	</div>
+	
+</body>
+</html>

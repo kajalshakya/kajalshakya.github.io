@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery Design</title>
+	<link rel="stylesheet" type="text/css" href="../vibox.min.css">
+	
+	<style>
+
+
+
+		.gallery{
+			margin:  10px 50px;
+		}
+		.gallery img{
+			width: 230px;
+			height: : 230px;
+			padding: 5px;
+			filter: grayscale(100%);
+			transition: 1s;
+		}
+		.gallery img:hover{
+			filter: grayscale(0);
+			transform: scale(1.1);
+		}
+
+	</style>
+</head>
+<body style="font-family: sans-serif; background-color:">
+	<h1 style="text-align: center;color: forestgreen;margin: 30px 0 50px; ">Image Gallery Design</h1>
+	<div class="gallery">
+		<a href="https://images.unsplash.com/photo-1593642634402-b0eb5e2eebc9?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" data-lightbox="my gallery" data-title="this is kajal"><img src="https://images.unsplash.com/photo-1593642634402-b0eb5e2eebc9?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="height: 344px"></a>
+		<a href="https://images.unsplash.com/photo-1613287760401-aa69c7796b81?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"><img src="https://images.unsplash.com/photo-1613287760401-aa69c7796b81?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" style="height: 344px"></a>
+		<a href="https://images.unsplash.com/photo-1612831200752-a70d1d1bb83b?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"><img src="https://images.unsplash.com/photo-1612831200752-a70d1d1bb83b?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"style="height: 344px"></a>
+		<a href="https://images.unsplash.com/photo-1613318715218-cf55e4854561?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxM3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"><img src="https://images.unsplash.com/photo-1613318715218-cf55e4854561?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxM3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"style="height: 344px"></a>
+		<a href="https://images.unsplash.com/photo-1613377466016-f21459822731?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"><img src="https://images.unsplash.com/photo-1613377466016-f21459822731?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"style="height: 344px"></a>
+		<a href="https://images.unsplash.com/photo-1613325853809-7852966d7dd0?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1M3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"><img src="https://images.unsplash.com/photo-1613325853809-7852966d7dd0?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1M3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></a>
+		<a href="https://images.unsplash.com/photo-1613328177901-fd471268d07d?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0N3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"><img src="https://images.unsplash.com/photo-1613328177901-fd471268d07d?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0N3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"style="height: 344px"></a>
+		<a href="https://images.unsplash.com/photo-1613320881684-929348eea9e0?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"><img src="https://images.unsplash.com/photo-1613320881684-929348eea9e0?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></a>
+		<a href="https://images.unsplash.com/photo-1613316122309-2abc177b1dc9?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"><img src="https://images.unsplash.com/photo-1613316122309-2abc177b1dc9?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"></a>
+		<a href="https://images.unsplash.com/photo-1613321686058-fa32b9806921?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"><img src="https://images.unsplash.com/photo-1613321686058-fa32b9806921?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"style="height: 344px"></a>
+	</div>
+	<script type="text/javascript" >
+		if("undefined"==typeof jQuery)throw new Error("Iframe-modal plugin requires jQuery");!function(o){"use strict";var i=jQuery.fn.jquery.split(" ")[0].split(".");if(i[0]<2&&i[1]<9||1==i[0]&&9==i[1]&&i[2]<1||i[0]>3)throw new Error("Iframe-modal plugin requires jQuery version 1.9.1 or higher, but lower than version 4")}(),function(o){"use strict";var i={padding:0,paddingColor:"#ffffff",borderRadius:0,margin:35,responsive:!0,width:560,height:340,preload:!1,src:"",onClosed:o.noop,beforeClosed:o.noop,onOpened:o.noop,beforeOpened:o.noop};function t(t,n){this.element=t,this.modal={},this.options=o.extend({},i,n),this.overlay=o('<div class="vibox-overlay">'),this.content=o('<div class="vibox-content">'),this.iframe=o('<iframe class="vibox-iframe" src="'+this.options.src+'"></iframe>'),this.close=o('<span class="vibox-close">&times;</span>'),this.content.css({padding:this.options.padding,"margin-top":this.options.margin,"background-color":this.options.paddingColor,borderRadius:0==this.options.padding?0:this.options.borderRadius,width:this.options.responsive?"100%":this.options.width,"max-width":this.options.responsive?this.options.width:"auto",height:this.options.responsive?o(window).height()-2*this.options.margin:this.options.height,"max-height":this.options.responsive?this.options.height:"auto"}),this.init()}t.prototype.init=function(){1==this.options.preload?e(this,n(this)):e(this)};var n=function(i){i.content.append(i.close,i.iframe),i.overlay.append(i.content),i.modal=i.overlay,o("body").append(i.overlay)},e=function(i){i.element.click(function(){0==i.options.preload&&o.isEmptyObject(i.modal)&&n(i),i.options.beforeOpened(),s(i)}),i.content.click(function(o){o.stopPropagation()}),i.close.click(function(){return r(i)}),i.overlay.click(function(){return r(i)}),o(window).resize(function(){p(i)})},s=function(i){o("html").addClass("vibox-fixed-body"),i.overlay.fadeIn(i.options.onOpened())},r=function(i){i.options.beforeClosed(),i.overlay.fadeOut(i.options.onClosed,function(){o("html").removeClass("vibox-fixed-body")})},p=function(i){var t=o(window).height()-2*i.options.margin,n=t>i.options.height?i.options.height:t;i.content.css({height:i.options.responsive?n:i.options.height})};o.fn.vibox=function(o){return new t(this,o)}}(jQuery);
+
+		
+	</script>
+</body>
+</html>

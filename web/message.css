@@ -1,0 +1,19 @@
+
+.container{
+	background:whitesmoke;
+	padding: 130px;
+	width: 70%;
+	margin: auto;
+	margin-top: 5%;
+	text-align:center;
+}
+h3,input,button,{
+	margin-bottom: 10px;
+}
+input{
+	padding: 1% 20% 1% 0;
+	font-size: 50px;
+	font-weight: bold;
+
+
+}

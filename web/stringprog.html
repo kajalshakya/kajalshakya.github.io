@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>shapes</title>
+</head>
+<body>
+
+	<script>
+		function getShape()
+	{
+		var shape = document.getElementById("entry").value;
+		var opp=""; 
+		for(var i=shape.length-1; i>=0;i--)
+		{
+			opp=opp+shape[i];
+		}
+		document.getElementById("heart").src="resource/"+shape+".png";
+		document.getElementById("opp").innerHTML=opp;
+		
+
+	if(shape==opp){
+		document.write( "It is a palindrome");
+
+	}
+	else
+		document.write("it is not a palindrome");
+			
+	}
+	</script>
+	<input id="entry" style="font-size:30px">
+	<button class="btn btn-primary" style="position: absolute;top: 70px;left: 350px" onclick="getShape();return false;">Submit</button>
+	<img id="heart" src="resource/circle.png">
+	<h2 id="opp"></h2>
+</body>
+</html>

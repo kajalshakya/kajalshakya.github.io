@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>shapes</title>
+</head>
+<body>
+
+	<script>
+		function getShape()
+	{
+		var shape =document.getElementById("entry").value;
+		document.getElementById("heart").src="resource/"+shape+".png";
+		
+	}
+
+		
+	</script>
+	<input id="entry" style="font-size:30px">
+	<button class="btn btn-primary" style="position: absolute;top: 70px;left: 350px" onclick="getShape();return false;">Submit</button>
+	<img id="heart" src="resource/circle.png">
+</body>
+</html>
